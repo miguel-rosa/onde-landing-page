@@ -1,0 +1,58 @@
+.features {
+  width: 100%;
+  max-width: 1280px;
+padding: 42px 0;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: space-between;
+}
+.card {
+  background:  #000b19;
+  border-radius: 8px;
+  padding: 38px;
+  font-weight: 500;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+  display:grid;
+  gap: 32px
+}
+
+.spacer {
+  margin-bottom: 24px;
+
+  border-color: transparent;
+}
+
+.card h3 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.card p {
+  padding: 24px 0;
+  font-size: 18px
+}
+
+.card1 {
+  width: 40%
+}
+
+.card2 {
+  width: 58.5%
+}
+
+.card3 {
+  width: 68.5%
+}
+
+.card4 {
+  width: 30%
+}
+
+.image {
+  border-radius: 8px;
+}

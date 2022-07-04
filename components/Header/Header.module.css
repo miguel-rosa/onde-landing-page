@@ -1,0 +1,38 @@
+.header {
+  display:flex;
+  align-items: center;
+  max-width: 1024px;
+  width:100%;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 16px;
+  }
+}
+
+.logo {
+  font-family: 'poppins';
+  color: #006cf3;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.menu {
+  display:flex;
+}
+
+.menuItem {
+  margin: 10px;
+  color:white;
+}
+
+.button {
+  background: #006cf3;
+  padding: 8px 16px;
+  color:white;
+  border-radius: 3px;
+}
