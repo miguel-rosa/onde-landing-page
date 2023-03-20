@@ -6,10 +6,14 @@ import styles from './Hero.module.css';
 const Hero = () => {
   return (
     <div className={styles.hero}>
+      <div className={styles.content}>
+
+      
     <div className={styles.infos}>
-      <h1 className={styles.title}>Venda mais no <br/><span className="highlight">whatsapp</span></h1>
-      <p className={styles.description}>Somos a plataforma que te faz vender mais pelo whatsapp, direcionando seus clientes para onde importa.</p>
+      <h1 className={styles.title}>Faça parte do <br/><span className="highlight">futuro do ecommerce</span></h1>
+      <p className={styles.description}>Somos uma plataforma de app commerce enterprise, criada para </p>
     </div>
+    <a className={styles.button} href="https://wa.me/5511950465529">Usar agora</a>
     <div className={styles.image}>
     <Image
       className={styles.phone}
@@ -19,6 +23,7 @@ const Hero = () => {
       alt="Loja virtual para vender pelo whatsapp"
       layout="intrinsic"
     />
+    </div>
     </div>
     </div>
     )

@@ -1,7 +1,7 @@
 .features {
   width: 100%;
   max-width: 1280px;
-padding: 42px 0;
+  padding: 42px 0;
 }
 .cards {
   display: flex;

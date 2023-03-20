@@ -1,14 +1,28 @@
 
 .hero {
   display:flex;
-  max-width: 1024px;
+  
   width:100%;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 42px 8px;
+  
+  
+  margin-top: 42px;
   color:white;
   max-height: 90vh;
+  justify-content: center;
   overflow: hidden;
+  background:
+  linear-gradient(0deg,rgba(22, 242, 216, 0.159), #006df318, rgb(0, 0, 0));
+  /* linear-gradient(45deg,#006df324,rgba(0, 0, 0, 0.24) ); */
+
+}
+
+.content {
+  max-width: 1024px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
 }
 
 .infos {
@@ -30,17 +44,19 @@ align-items: center;
 }
 
 .title {
-  font-size: 64px;
+  font-size: 52px;
   margin: 0;
-  text-align:center
+  text-align:center;
+  font-weight: 500;
+  font-family: 'Space Grotesk';
 }
-
 
 
 .description {
   width:60%;
   font-size: 24px;
-  margin: 28px 0;
+  margin: 12px 0;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -58,15 +74,16 @@ align-items: center;
 }
 
 .titleHighlight {
-  background: -webkit-linear-gradient(45deg, #006cf3, rgb(22, 242, 216));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(45deg, #006cf3, rgb(22, 242, 216)); 
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; 
 }
 
 .button {
-  background: linear-gradient(45deg, #006cf3, rgb(22, 242, 216));
+  background: linear-gradient(45deg, #006cf3, rgba(22, 242, 216, 0.752));
   font-size: 18px;
-  padding: 8px 16px;
+  padding: 12px 32px;
   color:white;
   border-radius: 3px;
+  margin: 10px 0 8px
 }
